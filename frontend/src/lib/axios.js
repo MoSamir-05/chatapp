@@ -4,6 +4,7 @@ export const axiosInstance = axios.create({
   baseURL:
     import.meta.env.MODE === "development"
       ? "http://localhost:3000/api"
-      : "https://chatapp-backend.onrender.com/api",
+      : "https://chatapp-backend-mhys.onrender.com/api",
+
   withCredentials: true,
 });
